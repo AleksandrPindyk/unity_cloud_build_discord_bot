@@ -1,0 +1,21 @@
+{
+    "discord_bot": {
+        "token": "${DISCORD_TOKEN}",
+        "guild": "${DISCORD_GUILD}",
+        "bot_name": "${DISCORD_BOT_NAME}",
+        "bot_channels": [
+            "ci",
+            "build"
+        ]
+    },
+    "unity_cloud_build": {
+        "base_url": "https://build-api.cloud.unity3d.com/api/v1/orgs/${UNITY_ORGANIZATION_ID}",
+        "api_key": "${UNITY_API_KEY}",
+        "project_id": "${PROJECT_ID}",
+        "project_name": "${PROJECT_NAME}",
+        "cloud_build_targets": {
+            "qa_windows": "qa-windows-64-bit",
+            "qa_android": "qa-android"
+        }
+    }
+}
