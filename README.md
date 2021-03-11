@@ -25,7 +25,7 @@ Fill .env file with:
 * Build and start docker image with command: **make up**
 * To stop docker image run command: **make down**
 
-Detailed instruction on how to create and use this bot can be found [here]()
+Detailed instruction on how to create and use this bot can be found [here](https://tproger.ru/articles/discord-bot-na-python-dlja-avtomatizacii-raboty-s-unity-cloud-build-v-gamedev-komande/)
 
 ### Available commands ###
 
